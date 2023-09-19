@@ -8,10 +8,10 @@ import base64
 
 urllib3.disable_warnings()
 
-cookie = ''
+cookie = '' # 替换你的cookie
 headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
-    "cookie": cookie
+    "cookie": f"ttwid={cookie}"
 }
 
 
